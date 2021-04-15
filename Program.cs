@@ -34,7 +34,7 @@ namespace MediaAritmetica
             Console.ResetColor();
             Console.WriteLine();
 
-            resul = (val1 + val2 + val3) / 3;
+            resul = (val1 + val2 + val3) / 3; 
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"- Média: {resul:N2}");
